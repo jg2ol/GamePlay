@@ -5,13 +5,10 @@ import { styles } from './styles';
 import IllustraionImg from '../assets/illustration.png';
 import {ButtonIcon} from '../components/ButtonIcon';
 
-export function SignIn() {
+export function SingnIn() {
   const [text, setText] = useState("Voçê não digitou nada ainda.");
 
-};
-
-export function SingnIn() {
-  return(
+  return (
     <View style={styles.container}>
       <StatusBar barStyle='light-content' backgroundColor={"transparent"} translucent />
       <Image source={IllustraionImg} style={styles.image} resizeMode='stretch' />
@@ -27,7 +24,6 @@ export function SingnIn() {
         favoritos com seus amigos
       </Text>
       <ButtonIcon title="Entrar com Discord" />
-      <ButtonIcon title="batata" />
 
     </View>
     </View>

@@ -8,7 +8,7 @@ type Props = {
     title: string;
 }
 
-export function ButtonIcon({title}: Props) {
+export function ButtonIcon({title,...rest}: Props) {
     return (
         <TouchableOpacity style={styles.container} activeOpacity={0.7}>
             <View style={styles.iconWrapper}>
@@ -17,4 +17,4 @@ export function ButtonIcon({title}: Props) {
             <Text style={styles.title}>{title}</Text>
         </TouchableOpacity>
     )
-}
+}8
