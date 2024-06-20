@@ -17,4 +17,4 @@ export function ButtonIcon({title,...rest}: Props) {
             <Text style={styles.title}>{title}</Text>
         </TouchableOpacity>
     )
-}8
+}
